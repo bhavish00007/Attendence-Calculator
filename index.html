@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Attendance Calculator</h1>
+            <p>Keep track of your classes and see how many you can safely miss</p>
+        </header>
+
+        <section class="calculator">
+            <h2>Add Subject</h2>
+            <input type="text" id="subject-name" placeholder="Enter Subject Name">
+            <input type="number" id="total-classes" placeholder="Total Classes">
+            <input type="number" id="attended-classes" placeholder="Classes Attended">
+            <button id="add-subject">Add Subject</button>
+        </section>
+
+        <section class="dashboard">
+            <h2>Your Subjects</h2>
+

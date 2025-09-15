@@ -1,0 +1,31 @@
+/* Reset & Base */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Inter', sans-serif; background-color: #f5f7fa; color: #333; }
+.container { max-width: 1100px; margin: 20px auto; padding: 0 20px; }
+header { text-align: center; margin-bottom: 30px; }
+header h1 { font-size: 36px; }
+header p { font-size: 16px; color: #666; }
+
+/* Calculator Section */
+.calculator { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; justify-content: center; }
+.calculator input { padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 180px; }
+.calculator button { padding: 10px 20px; border:none; border-radius:5px; background: linear-gradient(135deg,#4facfe,#00f2fe); color:#fff; cursor:pointer; transition: transform 0.3s;}
+.calculator button:hover { transform: scale(1.05); }
+
+/* Table */
+table { width: 100%; border-collapse: collapse; margin-bottom: 40px; background-color: #fff; border-radius:10px; overflow:hidden; box-shadow:0 5px 15px rgba(0,0,0,0.05);}
+th, td { padding: 12px 15px; text-align:center; }
+th { background: linear-gradient(135deg,#4facfe,#00f2fe); color:#fff; }
+tr:nth-child(even) { background-color: #f9f9f9; }
+button.delete-btn { background: #ff6b6b; color:#fff; padding:5px 10px; border:none; border-radius:5px; cursor:pointer; transition: background 0.3s; }
+button.delete-btn:hover { background:#ff3b30; }
+
+/* Chart */
+.chart-section { margin-bottom:50px; }
+.chart-section h2 { text-align:center; margin-bottom:20px; font-size:28px; }
+
+/* Responsive */
+@media(max-width:768px){
+    .calculator input { width: 100%; }
+    .calculator { flex-direction: column; }
+}
