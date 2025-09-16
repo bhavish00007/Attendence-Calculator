@@ -40,7 +40,7 @@ attendance-calculator/
 Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/attendance-calculator.git
+   git clone https://github.com/bhavish00007/Attendence-Calculator
 
 Open index.html in your browser.
 
