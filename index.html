@@ -25,4 +25,29 @@
 
         <section class="dashboard">
             <h2>Your Subjects</h2>
+            <div class="subjects-wrapper">
+                <table class="subjects-table">
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Total</th>
+                            <th>Attended</th>
+                            <th>Attendance %</th>
+                            <th>Safe Bunks</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="subject-table"></tbody>
+                </table>
+            </div>
 
+            <div class="chart-wrapper">
+                <canvas id="attendanceChart"></canvas>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
