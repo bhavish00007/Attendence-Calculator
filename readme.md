@@ -27,12 +27,13 @@ Built with **HTML, CSS, JavaScript**, and **Chart.js** for data visualization.
 ---
 
 ##  Project Structure
-attendance-calculator/
-│── index.html # Main HTML file
-│── style.css # Stylesheet
-│── script.js # JavaScript logic 
-│── README.md # Project documentation
-
+```
+┣ 📁 attendance-calculator/
+┣ 📄 index.html # Main HTML file
+┣ 📄 style.css # Stylesheet
+┣ 📄 script.js # JavaScript logic 
+┣ 📄 README.md # Project documentation
+```
 ---
 
 ## ⚡ How to Use
