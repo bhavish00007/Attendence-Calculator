@@ -1,7 +1,7 @@
 #  Attendance Calculator
 
 A simple web-based tool to keep track of your classes and calculate how many you can safely miss while maintaining at least **75% attendance**.  
-Built with **HTML, CSS, JavaScript**, and **Chart.js** for data visualization.
+Built with **HTML, CSS, JavaScript**, and **Chart.js** for data visualization..
 
 ---
 
