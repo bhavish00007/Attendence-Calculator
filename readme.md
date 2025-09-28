@@ -26,7 +26,7 @@ Built with **HTML, CSS, JavaScript**, and **Chart.js** for data visualization..
 
 ---
 
-##  Project Structure
+##  Project Structure:
 ```
 ┣ 📁 attendance-calculator/
 ┣ 📄 index.html # Main HTML file
