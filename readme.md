@@ -38,7 +38,7 @@ Built with **HTML, CSS, JavaScript**, and **Chart.js** for data visualization..
 
 ## ⚡ How to Use
 
-Clone this repository:
+Clone this repository.
 
    ```bash
    git clone https://github.com/bhavish00007/Attendence-Calculator
