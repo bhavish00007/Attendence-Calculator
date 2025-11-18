@@ -52,7 +52,15 @@ function deleteSubject(index){
 
 function renderChart(){
     const labels = subjects.map(s => s.name);
-    const data = subjects.map(s => ((s.attended / s.total)*100).toFixed(2));
+    const data = subjects.map(s => (s.total > 0 ? (s.attended / s.total) * 100 : 0));
+
+    const barColors = subjects.map(s => {
+        const p = s.total > 0 ? (s.attended / s.total) * 100 : 0;
+        if (p < 75) return '#ff6b6b'; // red
+        if (p < 80) return '#ffa500'; // orange
+        if (p < 85) return '#f6d365'; // yellow
+        return '#43e97b';
+    });
 
     if(attendanceChart) attendanceChart.destroy();
 
@@ -63,7 +71,9 @@ function renderChart(){
             datasets: [{
                 label: 'Attendance %',
                 data: data,
-                backgroundColor: '#4facfe'
+                backgroundColor: barColors,
+                borderColor: barColors,
+                borderWidth: 1
             }]
         },
         options: {
