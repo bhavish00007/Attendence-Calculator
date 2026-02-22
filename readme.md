@@ -36,21 +36,5 @@ Built with **HTML, CSS, JavaScript**, and **Chart.js** for data visualization..
 ```
 ---
 
-## ⚡ How to Use
-
-Clone this repository.
-
-   ```bash
-   git clone https://github.com/bhavish00007/Attendence-Calculator
-
-Open index.html in your browser.
-
-Enter subject name, total classes, and attended classes.
-
-Click Add Subject to see your attendance.
-
-View your attendance percentage, safe bunks, and the bar chart.
-
-Contributing
-
-Contributions are welcome! Feel free to fork this repo, create a branch, and submit a pull request.
+##  Live Demo :
+https://bhavish00007.github.io/Attendence-Calculator/
